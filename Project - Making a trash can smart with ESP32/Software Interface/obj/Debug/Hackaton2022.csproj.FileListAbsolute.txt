@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\bin\Debug\Hackaton2022.exe.config
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\bin\Debug\Hackaton2022.exe
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\bin\Debug\Hackaton2022.pdb
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\App.g.cs
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022_MarkupCompile.cache
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022_MarkupCompile.lref
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.g.resources
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.Properties.Resources.resources
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.exe
+C:\Users\user\Desktop\Hackaton2022\Hackaton2022\Hackaton2022\obj\Debug\Hackaton2022.pdb

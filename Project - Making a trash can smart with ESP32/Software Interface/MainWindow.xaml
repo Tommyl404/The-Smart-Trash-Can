@@ -1,0 +1,43 @@
+﻿<Window x:Class="Hackaton2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hackaton2022"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="Text1" HorizontalAlignment="Left" Height="51" Margin="200,46,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="409" FontSize="36" FontWeight="SemiBold" FontStretch="Expanded" FontStyle="Italic" FontFamily="Segoe UI Semibold">
+            <TextBox.Effect>
+                <DropShadowEffect BlurRadius="50"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Ellipse x:Name="lvl2" Fill="White" HorizontalAlignment="Left" Height="66" Margin="104,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="66" Margin="104,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1_Copy" Fill="Red" HorizontalAlignment="Left" Height="66" Margin="200,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl2_Copy" Fill="Red" HorizontalAlignment="Left" Height="66" Margin="200,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1_Copy1" Fill="#FF0AA300" HorizontalAlignment="Left" Height="66" Margin="302,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl2_Copy1" Fill="#FF0AA300" HorizontalAlignment="Left" Height="66" Margin="302,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1_Copy2" Fill="#FF0AA300" HorizontalAlignment="Left" Height="66" Margin="405,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl2_Copy2" Fill="Red" HorizontalAlignment="Left" Height="66" Margin="405,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1_Copy3" Fill="#FF0AA300" HorizontalAlignment="Left" Height="66" Margin="501,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl2_Copy3" Fill="#FF0AA300" HorizontalAlignment="Left" Height="66" Margin="501,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl1_Copy4" Fill="Red" HorizontalAlignment="Left" Height="66" Margin="603,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <Ellipse x:Name="lvl2_Copy4" Fill="Red" HorizontalAlignment="Left" Height="66" Margin="603,234,0,0" Stroke="Black" VerticalAlignment="Top" Width="65"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="104,327,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="200,327,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="302,327,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="405,327,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="501,327,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="603,327,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" Width="65" FontWeight="Bold" FontSize="16" TextAlignment="Center" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <ProgressBar x:Name="prog" HorizontalAlignment="Left" Height="31" Margin="106,379,0,0" VerticalAlignment="Top" Width="562" Maximum="120" SmallChange="1" Value="50" Foreground="#FF0AA300"/>
+        <TextBox HorizontalAlignment="Left" Height="50" Margin="10,361,0,0" TextWrapping="Wrap" Text="Full&#xD;&#xA;Capacity" VerticalAlignment="Top" Width="84" FontWeight="Bold" FontSize="16" TextAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}"/>
+
+    </Grid>
+</Window>
